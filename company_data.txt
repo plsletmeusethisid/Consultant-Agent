@@ -1,0 +1,1009 @@
+
+인수인계 	5
+SHINWOOTNS	5
+직원 이메일	5
+관리대장	5
+CATO관리	8
+Socket 관리 및 신청	8
+CATO HELPDESK 업무	11
+전화업무 순서도:	11
+문제 파악 시 확인해야 할 것들:	12
+전화 업무 처리 기록:	12
+CATO VPN Tech 계정	12
+LXPANTOS HELPDESK 업무	13
+KT&G HELPDESK 업무 	16
+CMA 주요 사용 사례 및 방법	17
+사용자 문제 분석	17
+전체 Monitoring에서 조회하는 방법	17
+특정 사용자만 따로 조회하는 방법	18
+티켓팅 및 RFE하는 방법	18
+사용자 “User Group” 추가 방법	19
+SDP User 계정 생성 방법:	20
+“Support Self Service (SSS)” 사용 방법	21
+Cato VPN Client 안전 삭제 매뉴얼	22
+로그파일 추출하는 방법
+	“Cato Device Posture Info Collector” 사용                                                                                    23
+	WAN Firewall 5번룰 적용된 일부 사용자 Trellix 인식되지 않는 오류                                            24
+Q&A	
+1.  [일반적인] 문제	25
+Q 1.1: 초대메일을 수신하지 못한 경우	26
+Q 1.2: 비밀번호 기억하지 못할 경우	27
+Q 1.3: 초대메일을 재발송 했지만 수신하지 못한 경우	28
+2.  [MFA 인증] 문제	29
+Q 2.1: “MFA” 인증이 정상 처리되지 않는 경우	29
+Q 2.2: Google OTP 입력 오류 발생시	29
+Q 2.3: 기존 사용자(CMA에서 Locked 로 표기될 경우)	30
+Q 2.4: Add User 완료 후, VPN 실행 시 MFA 창으로 넘어가지지 않고, 빈 페이지가 뜨는 경우	30
+3.  [CATO VPN 접속] 문제	31
+Q 3.1: “Authentication Error” 오류가 발생하는 경우	31
+Q 3.2: VPN실행 시 Connecting 정체 문제	32
+Q 3.2.1: CATO Client 어플 실행 후 “Add User”로 계정추가 때, “Connecting → Authenticating”에서 “Unable to connect to server” 에러가 발생하는 경우	33
+4.[CATO] 문제	34
+Q 4.1: CATO 네트워크 어댑터 Disabled 오류 창 발생하는 경우	34
+Q 4.2: CATO Client 어플 실행이 안되고 재설치(reinstall) 메시지창이 발생하는 경우	35
+Q 4.2: “Unable to start VPN service” 에러가 발생한 경우	36
+Q 4.3: “Failed to collect device posture”, “Adapter is currently disabled” 등 버전 5.3/ 5.4에서 발생하는 버그 이슈	37
+5.[인터넷 접속] 문제	38
+Q 5.1: SSL Handshake error 발생하는 경우:	38
+Q 5.2: 사용자가 지속적으로 인터넷이나 와이파이가 감속/접속 불가의 경우	38
+6.[lXpantos] 문제	39
+Q 6.1: 사용자가 한국 이외의 다른 국가에 소속되었는데, CATO VPN관련 문의(Account Disable 등등)을 할 경우	39
+Q 6.2: 해외 법인 근무 직원이 MFA를 해외 번호로 전환할 경우	40
+Q 6.3: 해외 법인에서 일하는 직원분에게 이메일이 온 경우	40
+Q 6.4: Global VPN(글로벌 VPN)과 Cato VPN이 동시에 켜져 있을 때 ep.lxpantos.com 접속 불가	40
+Q 6.5: 사이트/IP가 차단(Block)되어서 룰 허용이 필요하다는 내용의 이메일을 보고 할 때	41
+Q 6.6: 사용자의 포트가 SAP사와 관련이 있을 경우	41
+Q 6.7: 사용자가 LX판토스 이메일 확인이 ESSO 파일의 부재로 진행이 불가할 경우	41
+Q 6.7.1: 신규 사용자일 경우 (CMA에서 확인되지 않는 경우)	42
+Q 6.7.2: 기존 사용자 경우(CMA에서 확인되지 않는 경우)	43
+Q 6.7.3: 기존 사용자(CMA에서 disable로 표기될 경우)	44
+Q 6.8: 사용자가 LX판토스의 홈페이지/웹사이트 접속불량 문의할 경우	45
+7.[원격 지원] 문제	46
+Q 7.1: 사용자가 113366.com 접속시 이질적인 아이콘 및 4자리 숫자 입력창이 뜰 경우	46
+Q 7.2: Cato VPN Client 수동 삭제 및 재설치 방법	47
+기타 사항	50
+회의 참석 시 영상녹화 화질 설정 [OCam]	50
+
+
+인수인계 자료
+[인수인계]자료-원안: (2023/11/27이전까지 내용을 포함함)
+SHINWOOTNS
+교육영상 링크
+기본 직장인 예절 및 매너 영상
+직원 이메일
+심현 매니저
+안치현 매니저
+hyun.sim@shinwootns.com
+chihyun.an@shinwootns.com
+
+관리대장 (자세한 계정 정보)
+회사 공용 이메일:   (2025 수정본) 계정정보_Tech.xlsx - Google Sheets    해당 엑셀 확인
+회사 공용 이메일
+
+
+Tech
+Support
+인증서 발급 당시 생성한 공유 이메일
+Google
+AWS
+Id 
+tech@shinwootns.com
+
+
+support@shinwootns.com
+admin@shinwootns.com
+shinwootnstech@gmail.com 
+tech@shinwootns.com
+pw
+L/772834335789ab
+Tns0313!
+Tlsdn0313!
+Tns0515!
+L/772834335789ab
+
+AWS 일부 서비스 (예, ec2 인스턴스) 는 “stopped” 상태에서도 여전히 금액 청구에 포함되므로, 테스트 완료 시 모든 서비스를  반드시 “terminate” 상태로 전환하거나 “delete”할 것.
+AWS 콘솔페이지 로그인할때는 Root User로 선택 후, ID/PW 입력하고, 인수인계 받은 구글 MFA 코드 입력해서 로그인 할 것. (계정 지불 정보 변경시)
+와이파이 정보:
+
+
+공유기1
+공유기2
+KT(소켓WAN)
+iptime
+Lab 소켓
+명칭
+shinwoo 5G
+shinwoo 2G
+Shinwoooffice
+TEST
+admin
+비밀번호
+shinwoo123
+shinwoo123
+
+
+shinwoo12*
+Shinwoo123#
+
+[RemoteCall] 원격지원
+Windows:
+
+
+계정1
+계정2(*기간만료)
+계정3(*기간만료)
+Id
+shinwoo1
+Shinwoo2
+Shinwoo3
+pw
+Admin@#321
+Admin@#321
+Admin@#321
+
+상대방이 들어가는 URL: 113366.com  
+Mac:
+상대방이 들어가는 URL: 113366.io
+지원하기 위해 들어가는 URL: https://www.remotecall.io/
+
+원격지원을 두 명 이상 사용해야 할 경우 (원격지원 계정 수가 부족하여 동시 원격지원이 불가한 경우)
+ : 유수정 이사님께 보고하여 알서포트에서 임시 원격지원 계정 받기.
+Trellix같은 보안프로그램에서 원격지원프로그램 삭제시:
+알서포트 엔지니어에게 해당 내용 지원 요청.
+SHINWOOTNS CMA관리 계정
+LXPantos
+ShinwooTNS TAC:
+ShinwooTNS (LAB 계정) : 유효기간 만료 이메일 수취 시 대표님께 보고드리고 김지민 이사님께 연장 요청.
+KTNG (Commercial 계정 2024.01~)
+Youngone (POC 계정)
+YOC
+
+
+GS네오텍:
+
+
+기타 사항
+문의 내용 리스트 링크
+아름방송 기술지원 히스토리 리스트 링크 (2022-11-10 추가) , [아름방송]_라이선스
+프로젝트 현황
+데모 장비 현황.xlsx
+[기타]더미 파일 생성.docx
+Cato Partners에서 라이선스 취득
+일일 노트 작성법
+OT(초과근무) 일지 작성법
+영상 번역 매뉴얼
+동영상 다운로드 앱 결제일: ⭐27년 1월 27일⭐ (날짜 임박했을 시 대표님께 구독 취소하시라고 말하기)
+아침에 출근 후 체크 리스트:
+부재중 확인: 전날 퇴근 후 온 콜이 있는지 확인하여 9시 이후 연락
+이메일 확인: 전날 퇴근 후 온 이메일이 있는지 확인후 답변 및 보고
+Cato 업데이트 문서, 동영상 확인 및 보고고 (매주 월요일)
+일일 노트 작성
+대표님 수명업무 진행 방법: 
+신우티엔에스 업무 사항.xlsx
+대표님께 메일 / 카톡 보고 방법:
+개인 재량으로 판단하기 힘든 업무 요청, 대표님을 포함한 메일 / 포함하지 않은 메일이 올 경우
+해당 메일을 캡쳐하여 보고.
+누구에게, 어떠한 내용으로 짧게 설명글과 함께 보고.
+대표님이 CC가 안되어 있을 경우 해당 메일 대표님에게 전달하기.
+줄 마다 띄어쓰기.
+
+
+
+
+
+
+
+
+
+
+
+
+고객사(특히 영원무역)에서 개인 왓츠앱 또는 개인 톡으로 문의가 올 경우
+: 신우티엔에스 업무방에 보고하기. 개인 연락으로 답변을 계속 하다보면 해당 직원이 휴가 또는 퇴사하였을 때 다른 직원들이 알 수 없어서 일처리에 문제 생김. 
+CATO관리 (자세한 인사 정보)
+CATO 국내 엔지니어:
+김지민 수석이사 연락처:  010-3922-1983, +852-5998 9678
+         NOC (Network operation Center) :  Cato Support 조직
+          기타 사항:
+추가배포 사용자, 재설치 문의:
+티켓팅 현황 및 RFE 요청 현황_220927.xlsx (더이상 쓰지 않음)
+티켓팅현황관리.xlsx (더이상 쓰지 않음)
+CATO CMA, POP 등 현재 상황 알려주는 사이트
+CMA POP 국가 별 IP Range - CATO SDP PoP지정 할 경우 해당 PoP의 IP를 입력!
+
+중요 사항 및 업데이트 내용: 
+
+CATO: Master Service Agreement 및 SLA(Service Level Agreement) 관련 자료:
+CATO Master Service Agreemen.pdf
+[인수인계] 장애 발생 시 SLA 절차 및 Credit 요청 
+KB에 올라오는 주 1회 정기 업데이트 내용 및 POA에 올라오는 정보 주 1회 보고:
+Product Update Text, Video
+    3.   KB문서 링크, 및 POA문서 링크
+Socket 관리 및 신청
+Socket 신규신청:
+Socket의 Account 신규 등록 및 변경 건은 티켓팅이 아닌, 김지민 수석님을 통해 신청 진행.  
+이후 이사님께 시리얼 넘버 및 계정 정리하여 보고  
+소켓 해외발송: 은 해당 링크 참조
+Socket 초기화:
+CATO Socket Web UI 게이트웨이 주소 (암기 필요) - 169.254.100.1
+1. 위의 주소는 FR (Factory Reset)된 상태, Default 상태의 주소. 
+2. 해당 소켓에 대하여 CMA에서 수정하였다면,
+ Network에서 해당 “Site > Site Configuration > Networks” 에 들어가서 바뀐 주소를 확인
+3.1. POC 내부진행, CATO 소켓 그대로 사용 
+3.2. POC 외부진행, Socket을 Factory Reset 후 발송.
+Password를 기본값으로 변경하는 다른 방법으로는 F/D 버튼을 10초간 누르는 방법 또한 있음. 
+F/D가 작동하지 않는 경우
+해당 사이트에서 해당 소켓의 초기화 download link를 클릭.
+Shared link’s Password: 3sgsEi9bPyTNNVrxTXh2! 
+공통 비밀번호로 사용.
+CATO에서 장애 발생 이메일이 수신되었을 경우
+해당 문건 간단히 정리 및 스크린샷 첨부하여 대표님께 바로 보고. 보고는 이전에 기술된 양식을 따를 것. 그리고 해당 장애 관련 내용이 자세히 파악되지 않을 경우 티켓팅 진행 및 보고.
+소켓 관련 이슈 보고 양식
+소켓 연결이 끊김 등의 이슈가 발생시 우선 CMA 좌측 메뉴 중 Monitoring > Topology에 들어가 문제가 일어난 소켓을 클릭, 연결상태 확인. 그 후 마지막으로 연결된 (‘Last Connected’) 날짜와 시간을 확인해야 함.
+두번째로는 Monitoring > Event 에 들어가 마지막으로 연결된 시간 앞뒤로 어떤 트래픽이 발생했는지지 확인해야 함.
+마지막으로는 Monitoring -> Audit Trail 에 들어가 “Model Name”을 확인 후 보고 필요.
+
+CATO HELPDESK 업무
+[통화업무]기본매너.docx
+[통화업무]대처법.docx
+25년 5월 최신화: [통화업무] 기본응대 매뉴얼
+신우티엔에스 지원 전화번호: 070-4467-2009, 070-4467-2008
+두 전화는 독립된 전화이고, 통화중일때 다른 전화가 들어오면 “통화중”으로 처리됩니다.
+착신전환방법: 착신전환 버튼 -> 착신전환모드(사용) -> 착신전화번호(본인 휴대전화) -> 저장
+전화업무 순서도: 
+
+
+
+5/13
+
+Support 메일에서 tech 메일로 보내면서 “[날짜 -
+ 
+문제 파악 시 확인해야 할 것들:
+사용자 인터넷 환경(재택, 사무실–LXpantos 망이라 칭함, 핫스팟 와이파이 등등)
+사용자 기기의 보안 프로그램 존재 및 구동 여부
+에러 메시지
+기기 운영체제
+기존/신규 사용자 여부
+사용자 정상 사용 여부를 확인할 때, ep.lxpantos.com 접속 및 로그인 시도(Lxpantos의 2차 인증 웹사이트가 나올 시 접속 성공)
+
+CATO VPN Tech 계정
+ID: tech@shinwootns.com
+PW: Tlsdn0313!
+
+
+CATO VPN Tech 계정(KTNG)
+ID: tech@shinwootns.com
+PW: Tlsdn0515!
+
+
+LXPANTOS HELPDESK 업무 
+LX 직원 연락처 
+* CATO VPN 관련 권한: 문찬호 선임(IT 인프라팀) 010-5108-4791 / 내선: 02-6901-1108
+이메일: chanho.moon1@lxpantos.com / 
+25.12.01 부로 우상묵 책임님에서 문찬호 선임으로 변경됨 
+이전 담당자 : 우상묵 책임, 010-3713-3613 / 내선: 02-3771-2311 
+이메일: sangmook.woo@lxpantos.com
+* LX판토스 홈페이지, EP 계정 
+이준호 선임(LG CNS) 010-7252-8119 junho.lee01@lxpantospartner.com
+*협력사 VPN 및 EP접속 지원: 이현구 책임 (포워딩 IT팀, 010-7155-1371) 
+* 네트워크: 현재 확인 불가 (IT 기획팀) 이전 현기철 책임 010-5558-8847
+* PC관련: 서영득 차장 010-9278-1251 
+* GSI 포털: 신승필 책임(LG CNS)010-8354-7660, 전영민 총괄(LG CNS) 010-9978-3049
+* MS365: 안정재 차장(LG CNS) 010-9184-4004
+* EDMS: 김정숙 차장(LG CNS) 010-2439-8871
+>> GSI mail 2023.11.16 이후 종료됨 -> Exchange 메일로 변경됨. 
+* 2023.11.16 이후 Exchange 이메일 관련 지원
+- Helpdesk Mail : ms.help@lxpantos.com Outlook, MS365, 메일 활성화 등등 다 여기로
+- IT기획팀 권기범 책임 02-3771-2294 
+- Teams : Helpdesk Teams 채널 조인하여 게시글에 문의 글 / 이미지 등록 (채널 참가 클릭)
+LXPantos SDP(VPN) user 로그인 정보
+　
+계정1
+계정2
+계정3
+계정4
+id
+junyoung.kim@shinwootns.com
+
+
+
+
+
+
+pw
+Tlsdn0515!
+
+
+
+
+
+
+
+CATO Client 계정
+Account (Subdomain): LXpantos (대소문자 구별 X) / Youngone (영원 무역) / ShinwooTNS (신우 계정) / KTNG (KT&G) / GSneotek
+Username: 이메일 (xxxxx@lxpantos.com)
+Password: 대문자, 소문자, 숫자, 특수문자 최소 1개씩 입력해서 최소 8글자 ~ 32글자 사이
+LXPantos의 ep.lxpantos.com 접속 시
+ID: 해당 직원사번 (*사번이 아닌 직원들도 존재)
+P/W: 해당 직원의 비밀번호
+*LX판토스 임직원 포탈 테스트 계정 ep.lxpantos.com
+ID: XA632
+P/W: catoshinwoo1!
+기타 사항: 
+LG 노트북 두 대(판토스 제공): 드라이브 공통 BitLocker PIN: Shinwoo123#
+(기존 3대였으나 1대 반납하여 현재 두대)
+
+
+
+
+다수의 인원이 한 계정을 사용할 시:
+->콜 받고 도움드리는 중 다수의 인원이 하나의 CATO VPN 계정을 사용중이라고 판단될 시 너무 예의 없지 않게 보안 어플리케이션이기 때문에(또는 Lxpantos 보안 내규상) 개개인의 계정이 따로 있어야 한다고 설명 
+-> 문찬호 선임님에게 승인 요청 받아야된다고 전달
+-> 본인이 생각하기에 너무 많은 사람들의 한 계정을 사용한다고 판단될 시 조심스럽게 회사 및 부서를 여쭤본 후 문찬호 선임님에게 직접 전달. 
+다만 특수한 경우, 예를 들어서 일용직 노동자가 매일매일 변경되어서 작업을 하는 그런 곳, 같은 경우에는 문찬호 선임의 허가를 받고 다수의 인원이 한 계정을 사용하도록 유지.
+LXPantos 협력업체 직원들에 한하여, 접근제어 솔루션의 MAC 주소 확인을 위한 조치에 대한 문의가 왔을 때:
+-> CATO v5.4부터는 WinTun 방식을 디폴트로 사용하기 때문에, CATO VPN을 사용할 시, MAC 주소가 확인이 되지 않기에, CATO VPN을 기존 방식인 WinTap 방식으로 오버라이드를 해야함.
+직접 레지스트리 편집을 통하여, WinTap으로 변경 후, MAC 주소 확인을 하는 방법이 있기는 하나, 해당 방식은 회사 컴퓨터의 관리자 권한을 사용하지 못할뿐더러, 컴퓨터의 시스템을 직접 건드리는 방식이라서, 리스크가 있으므로, 해당 방식은 저희 내부 테스트 기기에 테스트할 때만 사용하고, 고객들에게는 직접적으로 사용하지 않음.
+
+KT&G HELP DESK 업무 
+
+HELP Desk 개념도
+ShinwooTNS Helpdesk에 할당(고정)된 IP는(10.246.0.101)만 방화벽을 통과할 수 있으므로, CATO VPN은 KT&G 지원시 한 명만 켜서 지원하는 것을 원칙으로 함.
+p.s) 만약, 한 명이 더 VPN을 통해 무분별하게 생성된 IP로 접근할 경우 KT&G 방화벽 정책으로 인해 접속이 막히므로 이에 따른 helpdesk 업무 혼란을 초래할 수 있음.
+자료: https://drive.google.com/drive/folders/1UT6Whjuq4fTb1ME9yy2R8H-Bw2R_mtKl?usp=drive_link 
+KT&G Helpdesk 	
+User : tech@shinwootns.com
+PW: tlsdn0515!
+
+
+
+CMA 주요 사용 사례 및 방법
+사용자 문제 분석 
+사용자 이벤트 로그 확인 방법:
+사용자의 트래픽이 Block 되었는지 정상적으로 접속이 되고 있는지 확인이 필요한 경우
+전체 Monitoring에서 조회하는 방법
+CMA에서 “Monitoring” 탭으로 이동
+
+좌측 메뉴에 “Events” 클릭
+
+좌측에 확인되는 각 “Field”에서 손쉽게 해당 오브젝트를 눌러 필터 적용하거나 상단에 직접 필터 적용 후 조회
+
+
+
+
+
+특정 사용자만 따로 조회하는 방법
+CMA에서 “Access” 탭으로 이동 후, 원하는 사용자 이름 클릭
+
+해당 사용자 클릭 후, 좌측에 “User Monitoring” 밑에 “Events” 클릭
+
+전체 조회와 같이 각 “Field” 에서 오브젝트 눌러 필터 적용 하거나 상단에 직접 필터 적용 후 조회
+
+티켓팅 및 RFE하는 방법 
+CMA에 우측 상단 물음표 표시 클릭 -> “Contact Support” 클릭
+
+해당 문제에 맞는 카테고리를 골라 진행:
+Priority는 항상 high, 급한문제면 urgent로 진행
+CC에 항상 대표님과 같이 일하는 매니저님 이메일 넣어서 진행
+내용은 항상 깔끔하고 이해하기 쉽게 정리해서 물어보기
+해결되면 감사하다는 짧은 문장하나라도 넣고 Mark as solved 하기
+
+RFE하는 법에 대해서는 문서로 작성해놨으니 참고하여 진행하면됩니다.
+
+[인수인계]RFE하는법_251020 - Google Docs
+사용자 “User Group” 추가 방법
+각각의 User Group에 대하여 “Network / Security Rule”을 용이하게 적용하기 위하여 “User Group”을 사용 (예: LX Pantos-SM, LXPantos_Partner). 
+특정 “User Group”에 사용자를 추가로 등록해달라는 요청이 있을 경우 다음과 같이 진행.
+CMA 상단에서 “Access -> User Group” 클릭
+
+사용자를 추가해야 할 “User Group” 클릭
+
+좌측에 Members 클릭
+
+Add Members 하단에 추가할 사용자의 카테고리 추가 및 이메일 입력
+
+입력 후 하단의 사용자명 클릭
+
+우측 상단의 “Save” 클릭
+
+
+SDP User 계정 생성 방법:
+CMA -> Access -> Users -> Users Directory 
+
+우측의 New 클릭
+
+등록할 사용자의 이름, 성, 이메일 입력 후 Apply 클릭
+
+추가배포사용자에 기록 
+“Support Self Service (SSS)” 사용 방법
+SSS는 티켓팅을 했음에도 불구하고, 장애/문제가 처리되지 않았다면 녹화하여 Cato에게 현재 어떤 상황이 일어나고 있는지를 보고
+
+우측 화면에서 해당 티켓팅을 모니터링할 Email을 입력. (입력할 Email은 관리자의 Email을 입력합니다. 관련 티켓에 CC가 참조되기 때문.)
+
+
+
+
+
+disa
+
+
+우측 화면과 같이 티켓팅의 내용(제목), 들어가고 싶은 IP주소 또는 FQDN, 그리고 상황을 설명하는 글을 작성.(어떤 장애가 일어나고 있는지에 대한 상황)
+
+
+
+
+
+
+
+
+
+ 
+
+4.  Cato에게 녹화본을 보냈다면 티켓팅에서 처리가 될지 아니면 다음 엔지니어(T2 또는 T3)에게 넘어갈지 정해줘야 함.
+
+
+Cato VPN Client 안전 삭제 매뉴얼-Cato 버젼 5.3 ~ 4
+링크 참조:
+ [CATO VPN 삭제 가이드]  Cato VPN 안전 제거 및 재설치 메뉴얼 (1).pptx.pdf, [CATO VPN 삭제 가이드]  Cato VPN 재설치 매뉴얼.pdf
+주석) 이 안전 삭제 매뉴얼은 위의 수동 삭제 및 재설치 방법에서 삭제하는 방법과는 다르게, 사용자의 메일에 파일을 전송하여 해당 기기에서 배치 파일을 실행시킵니다.
+“.bat” 확장자를 가진 배치 파일은 명령어들이 들어가 있어서 실행만 하면 명령어를 한꺼번에 실행시킬 수 있도록 하는 파일입니다.
+이 매뉴얼의 제작 목적은 위의 수동 삭제를 좀 더 간편하게 진행할 수 있도록 하기 위해 개발되었습니다.
+로그파일 추출하는 방법
+5.5 버전 이상에서만 지원되는 기능
+
+Record Issue 클릭 → Starting Recording 클릭 한 후
+오류가 생기는 현상을 다시 그대로 녹화 진행, 이후Stop Recording을 클릭한 후 
+다음과 같은 화면에서,
+“Send Logs to Support”를 클릭하여 직접 Cato로 발송
+“Local logs path”: 아래의 로그파일을 클릭하여 해당 파일을 티켓팅으로 직접 전달.
+
+“Cato Device Posture Info Collector” 사용법
+사용상황: VPN사용자의 AntiMalware 또는 Firewall 프로그램 등 을 확인하기 위한용도. 
+“CMA”의 “Event”에서 확인이 가능하지만 원격중이라면 더 빠르고 정확한 판단이 가능함.
+해당 프로그램을 사용하면 현재 Cato에서 사용자의 AntiMalware같은 프로그램을 어떤 것으로 인식하고 있는지 확인이 가능.
+ex) 사용자는 Trellix를 사용하고 있지만, Cato에서는 사용자를 Windows Defender User로 인식하는것처럼 행동할때, 프로그램을 사용하여 어떤것이 인식되고 있는지 확인 가능.
+먼저 Zip파일의 압축 해제.
+파일의 압축이 풀렸다면, 프로그램을 복사한 후 Cato가 설치된 ["C:\Program Files (x86)\Cato Networks\Cato Client\CatoClient.exe"]에 붙여넣기 실시.
+복사한 후 프로그램 실행.
+실행을 한다면 아래와 같은 화면이 나옴.
+   
+위 사진과 같이 ‘What’s Next’에서 확인이 필요한 번호를 입력.
+예) 해당 사용자의 기기의 Antimalware list을 확인하려면 1을 입력, 이후 다음과 같은 화면이 나옴 .                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
+화면을 통해 현재 Cato에서 기기가 현재 어떤 Antimalware 프로그램을 사용하는지 확인이 가능
+위 화면에 나오는 “Signature”은 사용하는 프로그램의 고유 번호 
+Cato에서 “Signature” 번호를 알려주므로, 따로 “Running State → Signature”을 확인할 일은 매우 드묾 것 임
+WAN Firewall의 5번룰에 적용된 일부 사용자 중 Trellix가 인식되지 않는 오류 발생.  
+Windows Defender로 인식되어 Exchange메일 접속불가
+Lxpantos_Partner 그룹의 사용자의 경우 Trellix 보안 프로그램이 설치되어야  Exchange(메일)등 아래 4개의 사이트에 접속이 가능함.  [Trellix 설치에 관련된 문의]
+devmapi.lxpantos.com / devowa.lxpantos.com / mapi.lxpantos.com/ owa.lxpqntos.com
+User 단말마다 다르지만 아래 두가지 방법을 모두 실행하여 Windows Defender AntiMalware를 완전히  비활성화 시켜야 Trellix가 인식 됨.
+>> Windows Defender AntiMalware 비활성화 방법
+1. Windows Defender 보안설정에서 "Defender 바이러스 백신 보호 기능" 끄기
+2. “로컬 그룹 정책 편집기”를 사용하여  Windows Defender 영구적 비활성화
+      3.  레지스트리를 사용하여 윈도우 디펜더 끄기 
+레지스트리를 편집하는 것은 잘못 설정하면 돌이킬 수 없는 손상이 발생하므로 주의 요망. 로컬 그룹 정책 편집기에 액세스할 수 없거나 Windows 10 Home을 사용 중인 경우에만 사용함.
+Ø  Windows Defender 비활성화 방법 자세한 매뉴얼(관리자용)은 아래 링크 참조.
+-  	매뉴얼 링크 https://drive.google.com/file/d/1ubZ-3T6QychaShVEumtG6yfOlelSZlXV/view?usp=drive_link 
+Ø  Windows Defender 비활성화 방법 자세한 매뉴얼(사용자)은 아래 링크 참조.
+-  	매뉴얼 링크 https://drive.google.com/drive/folders/1SXLmHnioxM4GDqOiDTzDJ3huKLy9jOsW 
+[Trellix 설치에 관련된 문의]
+Trellix가 설치되어 있지 않는 사용자는 우선 Trellix 설치 후 Windows Defender 인식 여부 확인후 지원. 
+Trellix 설치에 관련된 문의는 Lxpantos 정보보안팀이 담당함.
+- 임직원포탈 > 전사공지 내용 참조 : 전사공지 > 정보보안 게시판 > 보안 프로그램 Trellix (트렐릭스) 설치 가이드 
+    - 담당자 : 정보보안팀 허빛나 선임님 / bitna.heo@lxpantos.com
+
+Q&A
+0. 아래 항목에서 명확한 문제를 확인하지 못 했을 때 공통적으로 시도해볼 수 있는 방법
+하기 링크에서 각 VPN 에러에 맞는 조치 방법을 참/조하기
+https://support.catonetworks.com/hc/en-us/articles/20712196313501-Cato-Client-Login-Errors 
+일반적으로 시도해볼 수 있는 방법 (순차적으로 시도해볼 것을 권장)
+Cato VPN 연결 해제 및 캐시 삭제 후 재연결
+실행 중인 모든 Cato VPN 관련 프로세스를  작업 관리자에서 강제 종료 후 재연결
+사용자분이 연결 중인 네트워크 변경 (핫스팟 등) 뒤 재연결
+Cato 어댑터와 사용 중인 네트워크 어댑터의 IPv6 기능 비활성화 뒤 재연결
+PC 재부팅 후 재연결
+Cato Log Collector를 이용하여 VPN 로그를 추출하고 벤더 측에 티켓팅 진행
+1.  [일반적인] 문제
+Q 1.1: 초대메일 수신해야할 경우 / Password & MFA 기억을 하지 못할 경우
+CMA -> Access -> Users -> Users Directory 
+
+초대 메일을 재발송할 사용자 지정
+
+Actions -> Activate -> Resend activation(invitation) email
+
+Q 1.2: 비밀번호 기억하지 못할 경우
+1) 사용자 단말에 Client가 설치되어 있는 경우, 실행하여 Forgot Password 클릭하여 재설정
+2) 사용자가 프로그램설치를 다시 할 경우, 다음의 사이트에서 다운로드 받아 설치한 후, 실행하여 Forgot Password를 클릭하여 재설정 (https://clientdownload.catonetworks.com/)
+3) 헬프데스크에서 해당 사용자의 패스워드를 리셋했을 경우 (아래 A2 참조)
+A2: CMA에서 해당 사용자 계정 검색 선택하여, “Actions” 클릭, “Reset Password” 클릭
+비밀번호를 변경 후에는, CATO Client를 재실행하고나서 로그인 시도
+비밀번호 입력할때 옆에 눈 모양 (비밀번호 표시)를 하고 진행 
+CMA -> Access -> Users -> Users Directory 
+
+비밀번호를 재설정할 사용자 지정
+
+Actions -> Reset Password
+
+Q 1.3: 초대메일을 재발송 했지만 수신하지 못한 경우 (메일 수신이 안될경우)
+A3: 위의 방법으로 초대 메일을 다시 한번 재발송.
+만약 위 방법으로도 받지 못하였고 다른 원인이 확인되지 않는다면, 벤더 측에 티켓팅하여 “Suppression List”에 올라가있는지 확인(티켓팅하는 방법 참고) (Events & Monitoring > Email Alerts)
+사용자가 Access에서 확인 가능하더라도 Suppression List에 있을 수 있음.
+Suppression List 확인 양식
+SDP 사용자를 위한 초대메일 및 각 종류의 통상적인 메일 유효기간
+Q 1.4: Suppression List에서 제거 했으나 수신하지 못한 경우
+테스트 메일 전송 -> 유저가 테스트 메일 수신 못 했을 경우 MS365 담당자 안내 (안정재 차장(LG CNS) 010-9184-4004) → LXpantos 측 문제일 때
+티켓팅 진행 (메일 수신이 되지 않으니 “here” url을 포함한 이메일 내용 전달 요청) → Cato 측 문제일 때비밀번호
+Supression List에 들어가는 이유
+
+추가 설명 (서프레션 리스트 등록 원인):
+
+이메일 주소가 서프레션 리스트에 추가되는 주요 이유는 반송(bounce) 때문임.
+
+이는 메일 서버가 동일한 잘못된 주소로 반복 발송을 시도하지 않도록 막기 위한 보호 조치이며,
+이메일 발송 평판(reputation)을 유지하기 위한 일반적인 메커니즘임.
+
+Q 1.5: 비밀번호 재설정 시 저장 (Save) 안되는 경우
+Cato의 비밀번호의 필수 조건을 만족하였는지 확인.
+Cato 비밀번호는 대문자, 소문자, 숫자, 특수문자를 하나 이상씩 포함하여 8자리 이상으로 설정해야 함.
+
+2.  [MFA 인증] 문제
+Q 2.1: “MFA” 인증이 정상 처리되지 않는 경우
+A4: CMA에서 해당 사용자 계정 검색 후 선택하여, “Actions” 클릭, “Reset MFA” 클릭
+CMA -> Access -> Users -> Users Directory 
+
+MFA 재설정 사용자 지정
+
+Actions -> Reset MFA
+
+
+Q 2.2: Google OTP 입력 오류 발생시
+A4-1: 디바이스의 날짜/시간과 Google OTP가 설치되어 있는 기기의 날짜/시간이 일치 한지 확인
+Q 2.3: 기존 사용자 계정이 CMA에서 Locked로 표시되는 경우
+A20: 해당 사용자 Unlock 진행. Lock/Unlock은 해당 사용자의 비밀번호/MFA를 따로 변경하지 않음
+ Unlock 처리가 필요한 경우 “CMA -> Access -> Actions” 에서 Unlock을 클릭 필요.
+
+Q 2.4: “Access Denied” - Add User 완료 후, VPN 실행 시 MFA 창으로 넘어가지지 않고, 빈 페이지가 뜨는 경우
+A10: IPv6가 활성화되어 있다면 비활성화 상태로 변경
+* 변경 방법: 제어판 > 네트워크 및 공유 센터 > 어댑터 설정 변경 > 사용중인 네트워크 우클릭 > 속성  > 인터넷 프로토콜 버전 6(TCP/IPv6)  체크 표시 해제
+
+Q 2.5: SMS 인증 문자 수신이 되지 않을 시
+계정이 활성화되어 있음에도 SMS 인증 문자가 오지 않을 경우, 국내 통신사와 해외의 Cato 벤더사 사이의 통신 오류로 수신이 불가능할 수 있음. 이런 경우, Google OTP 사용을 권장해 드리고 있음.
+특히 LG U+ 통신사를 이용하는 사용자들이 문자를 수신하지 못하는 경우가 많았음. → Google OTP을 사용하는 방향으로 안내해 드려야 함.
+Q 2.6: 모바일 Hotspot을 통해 VPN 사용 시
+
+*모바일 Hotspot 통한 인터넷을 사용하는 경우
+ IPv6가 활성화되어 있다면 비활성화 상태로 변경F
+변경 방법: 제어판 > 네트워크 및 공유 센터 > 어댑터 설정 변경 > 사용중인 네트워크 우클릭 > 속성  > 인터넷 프로토콜 버전 6(TCP/IPv6)  체크 표시 해제
+
+3.  [CATO VPN 접속] 문제
+Q 3.1: (Windows) “Your device is not compliant with the enterprise posture. Please contact your administrator” - Authentication Error 오류가 발생하는 경우 / 방화벽
+A7: 해당 오류는 사용자 기기에 설치된 보안 프로그램이 판토스 권장 보안프로그램과 호환되지 않아 발생하는 오류로, 권장 보안 프로그램을 설치해야 함.
+예) 사용자 기기의 설치된 보안 프로그램이 “Ahn Lab V3 Lite” 일 경우, 해당 프로그램은 권장되지 않기 때문에
+삭제 후 Windows Defender 활성화를 해야함 – ‘windows 보안’ 들어가서 실시간 보호 켜놓기.
+필수 보안 프로그램이 깔려 있어야함
+판토스의 권장 보안프로그램이 아니지만, 특수한 경우 써야하는 보안 프로그램이면, 해당 보안프로그램의 정보 (해당 프로그램 회사, 소프트웨어 이름, 소프웨어 버전)를 확인하여 대표님께 보고 필요(대표님께 룰 적용 요청)
+[현재까지 아래의 보안(백신) 프로그램이 설치되어있지 않아서 이러한 에러가 보여지는 경우보단 
+아래의 보안(백신) 프로그램 외 부합하지 않은 프로그램이 설치되어있어서 에러가 보여지는 경우가 대부분 이었음]
+ 2022년 9월 기준, 판토스 권장 보안프로그램 하기 이미지 참조
+
+
+ 2023년 12월 기준, 판토스 권장 보안프로그램 하기 이미지 참조
+
+
+Q 3.1.1: (macOS) “Authentication Error - Access blocked because no policy rule was matched. Required profile: Check Devices for MAC”
+해당 오류는 사용자 기기에 LXpantos가 Device Posture 정책에 설정한 안티바이러스 프로그램이 설치되어 있지 않아서 발생. 따라서 사용자의 Mac 디바이스에 mac OS용 Avira Free Security (Avira Antivirus) 설치 필요함.
+Avira Antivirus 설치 이후 Cato VPN Client 실행 시 정상 작동 확인.
+* 각 사이트마다 사용자에 따라 (운영체제, 속한 사용자 그룹 등) 요구되는 Device Posture가 다를 수 있으므로, CMA > Access > Device Posture 탭에서 정책 확인 필요.
+
+
+Q 3.2: VPN실행 시 Connecting 정체 문제
+A7-1: CATO VPN → Users → Manual PoP selection이 공란이어야 연결 가능, 공란이지만 연결 오류가 발생하면, LG global VPN/ LG(판토스 내부망) 망이 연결되어 있는지 확인 필요
+작업관리자에서 Cato Client 종료후 재실행
+뱅킹 및 보안 앱 등 확인 후 일시중지 후 시도
+> 다른 실행 중인 앱과 충돌로 인해 ‘connecting’에서 정체 될 수 있음.
+재부팅 후에도 안된다면 재설치 진행
+LGE VPN 연결 중인 경우: CATO를 먼저 연결 후, LGE VPN 연결해야만 CATO가 연결됨
+ (Split Tunnel 도 있는지 확인) 
+1.1.  LGE VPN (Global VPN)은 LXpantos와 LGE의 업무를 동시에 보는 사용자가 있기에 Cato VPN과 동시에 사용하는 VPN임. 두 VPN 동시 사용이 요구될 시, Cato VPN에 Split Tunnel 파일이 업로드 되어있는지 확인 필요. 없을 경우 하단의 주석의 PDF를 사용자에게 제공 필요.
+LG 망 연결 중인 경우: CATO 연결이 필요하다면 (아이디 등록 등), 다른 와이파이나 핫스팟으로 연결 후 CATO 로그인 시도.
+해외 사용자 및 다수가 해당 문제를 경험하고 있는 경우
+상단에 위치한 링크를 들어가 PoP status 확인 후 문제 해결을 위한 티켓팅 및 대표님 전달
+
+Q 3.2.1: “Unable to connect to server” - CATO Client 어플 실행 후 Add User로 계정추가 때, Connecting → Authenticating에서 에러가 발생하는 경우
+
+Cato의 authentication server로 name resolution이 성공적으로 이루어지지 않을 가능성을 cmd를 다음과 같이 확인필요
+“nslookup sso.ias.catonetworks.com”을 입력했을 때 name resolution이 성공적으로 이루어지는지 확인필요
+
+ <실패한 경우: Request timed out (위) OR  can't find ~: non-existent domain>
+ <성공한 경우 (아래)> 
+성공한 경우: DNS 문제가 아니므로 티켓팅을 통해 다른 원인을 분석 시도.
+실패한 경우: 설정 → 네트워크 및 인터넷 → 어댑터 옵션 변경 → 사용중인 인터넷 우 클릭 → 속성 → 인터넷 프로토콜 버전 4(TCP/IPv4) 더블클릭 → DNS 설정을 ‘자동으로 DNS 서버 주소 받기’로 지정 후 확인 버튼 클릭
+Maersk (머스크) 사용자중 DNS Server 자동으로 바꾸어도 강제로 다시 원복시키는 프로그램/설정 존재 
+	초기화 안되게끔 하기 이미지처럼 10.254.254.1 (Cato DNS)를 DNS 에 추가하여 해결
+
+
+추가적인 케이스:
+Cato Client에 3번째 Users탭에 등록된 계정 하단 Manual PoP selection에 기타 문구들이 들어간 경우
+> 문구들을 다 지워주면 해결 (은근 발견된 케이스)
+간혹 계정이 비활성화 된 계정이 로그인 시도할때도 같은 문구가 뜬적이 있음
+Q 3.2.2: “Unable to connect to server” - LX판토스 해외사용자 Manual PoP지정 오류
+25년 4월 7일 Manual PoP지정하여 사용하던 유럽 사용자 중 “#fracatod1” 접속 시 접속 오류. 
+Cato 내부적으로 해당 PoP이름이 바뀌어, 매핑 오류 발생. 
+Cato에서는 해당 문제 재발 방지를 위해 PoP의 IP기입할 것을 추천, 하지만 판토스는 초기 계약 당시 합의한 대로 편의를 위해 기존처럼 PoP이름 사용 유지. 
+25년 4월 10일 해당 문제에 대해 우상묵 책임님께 PoP에 이름을 사용하지 않고 IP를 사용할 것을 요청함.
+
+Q 3.3: “Cato SDP Service error” – Cato VPN시스템 오류
+
+우선, 시스템 삭제 및 재설치, 그리고 재부팅 후 다시 시도해보기.
+“Cato VPN internal error’로 의심되며, 해당 오류 발생시 꼭 log를 첨부해서 티켓팅을 진행해야 함.
+
+또한, 문제 분석을 위해 log파일을 원본 유지해야 하므로, 해당 오류 발생시 log수집을 최우선으로 하고 log  수집 이후에 해결을 원칙으로 한다.  
+[매뉴얼]VPN-삭제,재설치 폴더
+[CATO VPN 수동 삭제 가이드]-방법1.pdf [CATO VPN 수동 삭제 가이드]-방법2.pdf
+상기 두개의 가이드 순서에 따라 Cato VPN을 삭제하고 오류 발생한 컴퓨터를 재부팅하여, 작업관리자와 ‘services.msc’에서 Cato에 관한 모든 프로그램이나 파일이 중단 및 삭제 되어있는 것을 확인하고 재설치 해야함.
+로그 추출 -> 가이드 참조 -> 컴퓨터 재부팅 -> 작업관리자 확인-> 작업 종료
+
+Q 3.3.1: “Cato SDP service error” - Split tunnel 업로드 시 오류
+3.3번의 절차 시도 이후에도 해결 안될 시, split tunnel이 저장된 디렉토리명이 영문으로만 구성되었는지 확인. 한글이 포함된 디렉토리에 위치해 있으면 오류가 남.
+추가적으로, LGE VPN split tunnel 파일의 형식이 올바르게 적혀 있는지 확인해야 함:
+파일의 맨 서두에 /comment가 아닌  //comment로 적혀있어야 함.
+파일의 ip와 subnet 리스트에서 <ip>와 <netmask> 사이에 공백(space)이 없어야 함.
+
+Q 3.4: “Internal Authentication Error” – Cato VPN시스템 오류
+
+“Internal Authentication error”은 다양한 원인 (f이메일 / 패스워드 오입력, 시스템 반영 지연 등)으로 인해 뜰수 있습니다. 정확히 어떠한 원인때문에 일어난다고 단정할수 없습니다.
+하지만, “Internal Authentication error”가 뜰 경우, 사용자님한테 Reset Password 혹은 초대 메일을 보내서 비밀번호를 재설정할수 있도록 하면 됩니다.
+비밀번호 변경 후 시스템 반영 지연 시간이 지난 이후에도 동일한 에러 발생 시, Cato Client의 Users 탭에서 사용자 계정을 잠시 등록 해제한 후 다시 등록하는 방법을 시도합니다.
+위에 내용을 진행해도 해결되지 않는다면 원격접속을 통해 와이파이, 이더넷, Cato 어댑터의 IPv6를 비활성화 해보시기 바랍니다. Windows+R, ncpa.cpl, 연결된 네트워크 우클릭, 속성, IPv6 끄기
+위에 사항을 진행해도 안된다면 Cato Client > Settings에서 Authenticate with external browser 선택해서 웹페이지를 통해 로그인 시도
+Reset Password 설정 후, 아래 myvpn.catonetworks.com으로 리다이렉션 됨. 해당 로그인은 진행 불필요. 
+Q 3.5: “Connection Error” - Add User로 계정 추가 시 로그인 창 뜨지 않고 접속 에러 발생
+
+이런 경우는 주로 Cato PoP에 인터넷을 통해 도달되지 않거나, UDP 포트 (53, 443), TCP 포트 (443)이 막혀있을 시 발생.
+Cato VPN Client 이외의 다른 VPN이 설치되지 않았는지 체크.
+인터넷 연결 체크.
+ISATAP 어댑터 비활성화 체크 (cmd). 
+netsh interface isatap show state
+netsh interface isatap set state disable
+Q 3.6: “Internal Cato error” - 비밀번호/MFA 설정 오류, internal PoP 오류
+비밀번호, 혹은 MFA가 잘못 설정되었거나 미설정되어 나타나는 오류일 수 있으니, 사용자 메일로 reset password, reset MFA, 혹은 send invitation mail을 전송하여 다시 설정한다.
+Password와 MFA 재설정을 반영 시간 기다리지 않고 이어서 바로 할 경우 발생할 수 있다. 
+기다리면 풀릴 수 있으나, 10분 지나서도 해결 되지 않으면 재설정 다시 진행. 
+위 절차 이후에도 문제가 해결되지 않는다면 Client 버전 확인 후, 최신 버전으로 업데이트 후 다시  MFA 재설정 후 로그인 시도
+비밀번호/MFA 재설정 이후에도 지속적으로 오류 발생 시, log collect 하여 벤더측에 티켓팅 진행.
+Q 3.7: Cato Client 연결 시 인터넷 접속이 불안정한 경우 - Client가 Connect, Disconnect를 반복
+Cato Client 버전 확인, 타 보안프로그램 설치 여부 확인, Cato Client 재설치 및 단말 재부팅 이후에도 계속 인터넷 접속에 문제가 발생하는 경우, Cato PoP 연결에 문제가 있는 것일 수 있음.
+따라서 Cato PoP을 Manual하게 지정한 후 인터넷 접속 재시도.
+예) Seoul PoP (140.82.205.1 - 140.82.205.254)의 경우, 140.82.205.1에 접속하는 사용자가 많을 수 있음. 따라서 범위 내의 다른 IP주소로 지정해준 뒤 연결 재시도.
+Q 3.8: “Login Error: Incorrect username. Please try again, or copy the Details and send them to your network admin.” - Username 입력 오류, 계정이 비활성화된 상태
+
+Username에 이메일주소를 올바르게 기입하지 않았을 때 발생할 수 있음.(오타 등등)
+Username에 이메일을 올바르게 기입하였는데도 해당 에러 발생 시, 애초에 계정이 활성화되어 있지 않은 경우일 수 있으니 CMA > Access > Users Directory 에서 계정 조회 필요.
+계정이 비활성화되어 있는 경우, 계정 신규 신청 혹은 재신청 안내 드리기.
+Q 3.9: Add User 접속 시도 시 Subdomain창으로 넘어가는 경우: 계정이 비활성화된 상태
+
+계정이 비활성화 되어 있을 시, Add User로 접속 시도하면면 Email 창 이후 User, Password 창이 아닌 Subdomain, Password 창으로 넘어감. 
+비활성화 확인 후, 계정 신규 신청 / 재신청 안내 드리기
+간혹가다 이메일 입력을 잘못하여서 Subdomain을 입력하라고 나오는 경우도 있음
+계정이 비활성화 되어있지 않은데 저렇게 뜬다면 초반에 이메일 입력하실때 오타가 없는지 확인할것
+
+
+ [CATO] 문제
+Q 4.1: “The Cato Networks VPN Adapter is currently disabled”- CATO 네트워크 어댑터 Disabled 오류 창 발생하는 경우
+평소 잘 사용하다가 갑자기 해당 에러가 나타나면 시스템 충돌을 먼저 의심해볼 수 있다.
+> 따라서 CATO VPN 프로세스를 완전히 종료한 뒤 다시 실행해보고, 안되면 재설치를 시도해볼 수 있다.
+
+
+사용자가 CATO 네트워크 어댑터를 임의로 종료 또는 조작한 것이 확인되었다면, 다시 해당 어뎁터들을 활성화시킴으로서 문제를 해결할 수 있다.
+ 
+아래와 같이 윈도우 검색창에 Device Manager(장치 관리자)를 검색해 들어간 후 Cato에 관련된 네트워크 어뎁터들을 우 클릭 후, Enable(사용함) 클릭.
+
+
+
+
+
+
+Q 4.2: ”Unable to start VPN Service. Please try to reinstall Cato VPN Client and then try again”- CATO Client 어플 실행이 안되고 재설치(reinstall) 메시지창이 발생하는 경우
+[CATO SDP 클라이언트 문제 기록]-메뉴얼.pdf
+
+제어판에서 어플 삭제 /  Cato Client 재설치도 안되는 경우가 발생 함.
+	
+위와 같은 경우 VPN Service를 강제로 종료 해야함, 그러므로 하기와 3단계의 작업 진행 후 Cato Client를 삭제하고 재설치 해야함.
+“Windows + R”을 누른 후 “services.msc”를 검색하여 실행해야 함.
+
+“CatoNetworksVPNService”를 찾아서 우 클릭 후 중지(Stop) 해야 함.
+
+혹시 모를 Background에 실행 중인 VPN을 중지하기 위해 ‘Ctrl+Shift+Esc’ 로 Task Manager 실행 후 아래와 같이 Cato 관련 모든 프로세스를 우 클릭하여 종료 (End task)
+안 될 경우, 재부팅을 해 봅니다.
+재부팅 후 안 되는 경우, 레지스트리 편집기로 해야 합니다. (4번)
+LXpantos의 경우 문찬호 선임님 역시 레지스트리 편집기 권한이 없습니다. 따라서, 레지스트리 편집기를 사용해야 하는 경우, 먼저 문찬호 선임님께 전화 후, 상황 설명하고 사용자에게 문찬호 선임님 전화번호를 알려드린다. 
+위의 경우가 작동하지 않는 경우, >> 레지스트리 편집기로 프로그램 제거  -> 윈도우+R -> Regedit-> HKEY_LOCAL_MACHINE-> SOFTWARE-> CatoNetworksVPN-> 우클릭 삭제
+
+
+
+
+
+Q 4.3: “Unable to start VPN service” 에러가 발생한 경우
+윈도우 + R 키를 눌러서 검색 창을 띄운 후, “services.msc”를 입력 후, 확인 클릭
+
+“CatoNetworksVPNService” 를 찾은 후 “상태" 가 “실행 중" 혹은 “중지" 상태인지 확인
+
+“중지" 상태면 해당 서비스 더블 클릭하여 속성 창을 연 후, 시작 유형을 “자동", 서비스 상태를 “시작"으로 변경 후 하단의 확인 클릭
+ 
+또는 이미 실행 상태이거나 자동일 경우에는, 다시 중지하고 실행
+Q 4.4: “Failed to collect device posture”, “Adapter is currently disabled” 등 버전 5.3/ 5.4에서 발생하는 버그 이슈
+A8: CATO Client 저장 위치 확인 ("C:\Program Files (x86)\Cato Networks\Cato Client\CatoClient.exe") 및 현재 버전 확인. 최신 버전으로 업그레이드 진행
+어떠한 이유로 최신 버전이 설치가 불가한 경우는 해당 링크로 이동하여 5.3버전으로 다운그레이드 해야 함.
+주석) Cato VPN Client를 최신 버전으로 업그레이드 방법은 본 메뉴얼에 포함된 Cato VPN Client 수동 삭제 및 재설치 방법을 참고 필요. 
+기존 Cato Client 5.3v에서는 잘못된 경로로 설치 이후 해당 프로그램 삭제 시, 다른 파일들까지 같이 삭제 하는 버그가 존재하므로, 이를 방지하기 위해 cleanup대신 수동 삭제 및 재설치방법을 사용해야 함.
+
+
+Q 4.5: Cato VPN 연결 시 파일 저장 및 다른 이름으로 저장 불가한 경우
+Cato VPN Client 버전 확인 후 최신 버전으로 업그레이드 진행.
+Client 업그레이드 이후에도 문제 지속될 시 제어판 > 네트워크 및 인터넷 > 네트워크 및 공유 센터 > 연결된 인터넷 더블클릭 > 속성 > 인터넷 프로토콜 버전 6 해제 이후 다시 시도.
+
+2번 절차 이후에도 문제 지속 시 로그 추출하여 티켓팅 진행.
+[인터넷 접속] 문제
+Q 5.1: “SSL Handshake error” - 발생하는 경우:
+SSL 핸드셰이크(SSL handshake)는 클라이언트와 서버 간의 보안 통신을 설정하기 위한 프로세스. 
+클라이언트와 서버 간에 안전한 연결을 설정할 수 없을 때 발생되며 이는 여러 이유로 인해 발생할 수 있기 때문에 드라이버 재설치등 설정과 관련하여 확인 필요.
+A16: 사용자 컴퓨터의 시간설정이 정상적인지 (동기화가 되어 있는지) 확인 -> 윈도우 설정에서 시간 동기화 또는 재설정 진행
+주석) 현재까지 LXpantos의 기기 세팅 관련해서 사용자의 컴퓨터에 등록되어 있는 시간이 정상적이지 못해 이 이슈가 발생한 경우.
+
+상단의 윈도우 검색창에서 “날짜 및 시간 변경”을 입력하여 찾은 후 “자동으로 시간 설정”을 활성화하여 해결 가능.
+
+
+← 2024.4.12일 네덜란드 사용자의 SSL handshake Error의 경우 날짜 및 시간설정은 자동으로 되어 있었고,  Vpn을 최신 버전으로 업데이트하여 이후 정상 작동하여 원인파악은 불가하였음. 
+추후에 해결 되결되지 않는 경우 원인분석을 위하여 log파일 첨부하여 티켓팅진행.
+
+
+
+(티켓팅 참조) 최근에는 LXpantos 유럽쪽에서 Manual PoP Selection 에서 보통 #amscatod1 이런식으로 PoP을 지정해서 들어가는 방법을쓰는데 #amscatod1(암스테르담 팝)을 입력해서 들어가면 위와 같은 에러가 뜨는 경우가있음.
+25.10.27 기준 티켓팅 계속 진행중에 있으며 임시 방편으로 암스테르담 팝에 들어가야 하는 사용자면
+위의 #amscatod1 보다 암스테르담 PoP에 해당 되는 ip를 안내해 드리면 됨 (예: 85.255.20.1)
+
+Production PoP Guide – Cato Learning Center
+10월 30일경 CATO의 서버 인증서가 만료될 예정이었음 > 본래는 문제가 발생하지 않는다고 CATO측에서 밝혔으나 
+10월 30일이 되면서 Cato Client 5.9 버전 이하의 기기들에서 접속이 불가한 증상이 발생
+그때의 오류문구도 위의 SSL Handshake Error 로 동일함
+따라서 문의로 접속이 불가하고 에러 메시지가 SSL Handshake Error 라고 하면 우선 버전 체크를 하는것을 권함
+
+단순 Cato Downloads 에서 최신 버전 Cato Client 를 다운받으면 해결되는 문제이니 해당 방법으로 조치하면됨.
+Q 5.2: 사용자가 지속적으로 인터넷이나 와이파이가 감속/접속 불가의 경우
+A18: CATO VPN은 인터넷 연결을 건드리지 않기에 지원 불가. 안정적인 인터넷 구축 후 지원 요망
+Q 5.3: 연결 속도 문제: 인터넷과 내부 시스템 둘 다 느려지는 현상 
+2025년 05월 14일 ~ 5월 28일 lx판토스 카자흐스탄 지부 SDP사용자들이 현지 오후 시간에 인터넷과 내부 시스템 둘 다 느려지는 현상 경험
+현지 와이파이와 한국 측  traceroute를 통해 라우팅에는 문제 없음을 확인 
+티켓팅 통해 TCP로 통신하고 있는 Client를 UDP로 바꾸는것을 시도 - 속도 개선 확인 후 종결
+UDP로 바꾸는 Regedit Key 생성 절차: 
+
+
+적용 후 UDP로 바뀐 것 확인: 
+
+[lXpantos] 문제
+Q 6.1: 사용자가 한국 이외의 다른 국가에 소속되었는데, CATO VPN관련 문의(Account Disable 등등)을 할 경우
+A11: 해외지역 담당자 연락처로 연락:
+- 아시아& 인도: Jajang (jajang.supriatna@lxpantos.com)
+- 홍콩: 전연희 대리(lianji.quan@lxpantos.com)
+- 유럽&중동: 한제승 책임님 (jeseung.han@lxpantos.com)
+euit.support@lxpantos.com 으로 연락. 
+
+- 중남미: 김민준님 (minjun.kim@lxpantos.com)
+
+신우티엔에스는 한국 지역만 담당하고 있기 때문에 해외에서 문의가 올 경우 지역 담당자에게 CC를 추가할 것.
+EP 사이트에서 사용자를 조회하여 어느 지역에 해당되는지 확인이 가능함.
+
+
+
+
+
+
+
+
+Q 6.2: 해외 법인 근무 직원이 MFA를 해외 번호로 전환할 경우
+A26: 2023년 5월 2일 기준, 판토스에서 중국에서 일하는 직원에게는 Cato 대신 중국 자체 VPN을 이용하도록 진행중임. 따라서 문찬호 선임님을 CC 걸어서 직원분이 현지 IT 담당자에게 안내받을 수 있도록 해야함. 같은 시간 기준, 유럽에서도 유럽 자체 VPN을 이용하고 있음.
+
+Q 6.3: 해외 법인에서 일하는 직원분에게 이메일이 온 경우
+A27: 해외 법인에서 온 이메일의 경우, 신우 TAC센터에서 모르는 IT 정책을 운영하고 있을 수도 있기 때문에, 문찬호 선임님이 CC 걸려있지 않아도 답장을 드릴 때 무조건 CC를 걸어서 회신하도록 해야함. 
+A27-2: 해외 법인에서 계정 생성건으로 연락이 온다면, 문찬호 선임님에게 따로 연락이 오지 않는 이상 따로 생성을 지원해주지 않음.
+	
+Q 6.4: Global VPN(글로벌 VPN)과 Cato VPN이 동시에 켜져 있을 때 
+ 접속 불가할 경우
+A: LGE VPN_split tunnel v4 파일을 사용자의 판토스 메일로 전송한 후, Cato VPN Client를 열고 Settings에서 Upload Split Tunnel File에서 파일을 업로드 필요.
+      이전 담당자이신 우상묵 책임님과 대화를 통해 확인하였을때 Split tunnel을 공유는 하지만
+되지 않는다면 그거는 어쩔수 없는 뉘앙스로 얘기하셨습니다.
+따라서 
+
+Split Tunnel을 활용하여 동시에 두 개의 VPN을 사용하는 경우 충돌 가능성이 불가피하다는 점,
+그리고 원칙적으로는 A에 접근 시 A VPN만, B에 접근 시 B VPN만 사용하는 것이 권장된다고 합니다
+
+이렇게 설명을 드리면 됩니다.
+
+
+Q 6.5: 사이트/IP가 차단(Block)되어서 룰 허용이 필요하다는 내용의 이메일을 보고 할 때
+A: 상단의 Monitoring Tab을 누르고 좌측 바에서 “Investigation > Event”를 클릭합니다. 이메일에 포함된 사이트나 사용자, 차단 국가에 따라 트래픽을 필터링하여, 차단(Block)이 발생한 트래픽 정보를 스크린샷 하여 보고해야 함. 차단의 경우 필터링 항목 중 Action은 Block을 선택해야 함,
+
+Q 6.6: 사용자의 포트가 SAP사와 관련이 있을 경우
+A12: SAP는 LX판토스 협력사로서 일반적으로 LX 판토스 측에 문의하라고 전달.
+주석) SAP은 Cato와 관련되어 있는 프로그램이 아니며, 우리에게 문의하는 경우가 있음. SAP은 LXpantos에서 내부적으로 다른 콜센터를 가지고 있기 때문에 Lxpantos 헬프데스크에 연락하라고 전달해야 함.
+
+MS365 헬프데스크 연락처: 1670-3577 (잘 사용하지 않음)
+
+
+
+Q 6.7: 사용자가 LX판토스 이메일 확인이 ESSO 파일의 부재로 진행이 불가할 경우
+A17: LX판토스의 IT 헬프데스크 쪽으로 사용자가 문의, 또는 원격지원을 하여 사용자가 ESSO 파일을 설치할 수 있으니 다른 매니저에게 정보 전달 후 로그인된 CATO VPN 계정 해당 기기에 남겨놓기. 필요하다면 “ep.lxpantos.com->공지사항->ESSO 검색-> ESSO “설치 파일 설치 후 재부팅 
+원칙적으로는 판토스 헬프데스크에 인계하는 게 맞으나, 사용자가 급박할 경우 위의 방법으로 ESSO를 설치해드리는 것을 권장.
+Q 6.7.1: 신규 사용자일 경우 (CMA에서 확인되지 않는 경우) 
+A5: LXpantos ITSM 시스템에서 VPN 계정 신규 신청 안내 또는 신규 입사자라 아이디가 없는 경우, 본사에 신청 / 그 외에는 필요시 매뉴얼 전송. 신규 입사자가 아닐 경우 이메일 확인
+“CMA -> Access -> Users -> Users Directory”에서 문의된 사용자 이메일 검색 
+신규 사용자임을 구두로 확인
+사용자에게 “통합결재 > 문서작성 > 신청서 (KOREA) > 본사 VPN ID 신청서” 를 이메일로 전송
+         **23년 9/6일부터 LXpantos 신규 ITSM 시스템으로 변경됨.
+>> lXpantos ITSM 시스템을 통해 신청으로 변경.
+- 우측 상단에 “System link > Pantos ITSM> CSR신청 >VPN 신청”
+* 메뉴얼URL:  상단 사용자명 항목에서 이름을 검색하신 후 해당 이름을 선택하시면, 자동으로 사용자 사번과 부서, 이메일 정보를 취득. 이전에 Cato VPN을 한번도 사용해 본적이 없는 사용자는 신규 사용자로 취급되며, LXpantos와의 계약상 먼저 그쪽에서 VPN ID 신청 완료 후 해당 사용자의 SDP User 계정 생성 가능.
+
+
+Q 6.7.2: 기존 사용자 경우(CMA에서 확인되지 않는 경우)
+A5-1: CMA에서 “Access” 탭으로 이동 후, “New” 를 클릭하여 사용자 정보 입력 후 생성
+Ex 이유) 오랫동안 안 쓰셔서 삭제 처리가 된 거 같다, 본사 측에 저희가 안내를 드리겠다 하고 본사 측에 해당 내용 전송.
+주석)  링크는 이전 LXpantos측의 실수로 Disable 및 삭제 처리가 된 계정들 기록된 명단입니다.
+비록 사용자에게 안내 시에는 위의 Ex와 같이 안내드리나, 실질적인 이유는 아니라는 점을 숙지 해야 하며 해당 경우, 사용자의 성명과 lxpantos 이메일을 받아서SDP User계정을 신규 생성 후VPN ID 신규 신청을 하도록 안내해야 함.
+ITSM 시스템을 통해 VPN ID 신규 신청 안내
+- 우측 상단에 System link > Pantos ITSM> CSR신청 >VPN 요청
+* - 메뉴얼URL: 상단 사용자명 항목에서 이름을 검색하신 후 해당 이름을 선택하면, 자동으로 사용자 사번과 부서, 이메일 정보를 취득.
+
+
+Q 6.7.3: 기존 사용자(CMA에서 disabled로 표시되는 경우)
+
+ITSM 시스템을 통해  VPN ID 신규 신청 안내
+- 우측 상단에 “System link > Pantos ITSM> CSR신청 >VPN 요청”
+* - 메뉴얼URL: 상단 사용자명 항목에서 이름을 검색하신 후 해당 이름을 선택하면, 자동으로 사용자 사번과 부서, 이메일 정보를 취득.
+
+
+
+Q 6.8: 사용자가 LX판토스의 홈페이지/웹사이트 접속불량 문의할 경우
+A15: 우선 크롬이나 마이크로소프트 엣지 등 올바른 브라우저로 접속 후 여전히 안될 시 LX 판토스로 전달
+이준호 선임에게 전달합니다. 번호: 010-7252-8119
+주석) 저희 회사는 LXpantos에 오직 Cato VPN에 관련되어 있는 서비스를 제공합니다. 연관되어 있지 않은 문제는 지원하지 않음. Cato VPN이 정상 작동하여도 ep.lxpantos.com과 같은 lxpantos의 업무 웹사이트들이 들어가지지 않는 경우가 있습니다.
+어떤 브라우저로 해도 들어가지지 않으면 해당 사용자의 브라우저 세팅 자체에 문제가 있는 것이므로 LXpantos에게 전달해야 합니다. 
+
+GSI mail 2023.11.16 이후 종료됨.  Exchange 메일로 변경됨.
+            Exchange 이메일 관련 문의: 
+           - 권기범 책임 IT기획팀 02-3771-2294 임영해 대리  IT기획팀 02-3771-2697
+- Helpdesk  Mail : ms.help@lxpantos.com / Teams : Helpdesk Teams 채널 조인하여 게시글에 문의 글 / 이미지 등록 (채널 참가 클릭)
+
+
+
+Q 6.9: [체크 요망!] ep.lxpantos.com와 NEXT HR 근태, 복리후생 시스템 STG(QA) 서버로 연결이 되지 않을 경우(2024.01.26 기준)
+A16-1: 라우팅 설정 요청 시, 대표님께 보고
+ 
+A16-2:  Split Tunnel 체크 박스 해제 한 후 다시 HR 접속
+A16-3:  Split Tunnel 다운로드 후  LG전자 VPN을 동시에 접속을 하기 위해서 Split tunnel 기능을 Enable하여 사용하시는 것으로 알고 있습니다. 위와 같은 상황이시라면, 첨부파일을 PC에 다운로드 후, 아래 화면에서 “UPLOAD FILE” 버튼을 클릭하시어 다운로드 받은 첨부파일을 선택하여 설정하시면 됩니다.
+
+
+
+
+
+Q 6.10: ep.lxpantos.com에 접속 후 mail창이 뜨지 않아 메일이 확인 되지 않을 경우
+A17: 해당 웹페이지 팝업해제 설정 후 다시 mail접속 (브라우저 URL창에서 오른쪽 상단쪽에 존재)
+
+Q 6.11: VPN 사용 시 근로복지공단 사이트 접속 불가
+
+A17: 근로복지공단의 경우 보안정책상 해외 IP를 차단함. 서울 CATO POP IP를 사이트에서 해외 IP로 인식하여 차단되는 것이므로, 근로복지공단 전산팀(1833-6000) 또는 근로복지공단 IP대역팀 (052-704-7173 (24.02.14기준))에 전화하여 문의 후, 서울 CATO POP IP(140.82.205.1 - 140.82.205.254 140.82.205.0/24) 대역을 등록 요청.
+Q 6.12: 에러 - 쿠키삭제 방법
+
+A18: CATO VPN에서 쿠키삭제하는 방법은 Settings 탭에 들어가서 쿠키 삭제 아이콘을 클릭하면 된다.
+
+Chrome 쿠키제거
+1.컴퓨터에서 Chrome을 엽니다.
+2.오른쪽 상단에서 더보기 > 설정을 클릭합니다.
+3.개인 정보 보호 및 보안 > 인터넷 사용 기록 삭제
+4.쿠키 및 기타 사이트 데이터와 캐시된 이미지 및 파일 체크
+5.인터넷 사용 기록 삭제 클릭합니다.
+
+
+Q 6.13: Authenticating에서 무한로딩되는 경우 / ID&PW 입력 후 무한 로딩되는 경우 (26/01/06 - KMS)
+Connect 버튼을 누를 시 Connecting에서 Authenticating에서 MFA를 입력하는 창이 나오지 않고 무한로딩인 상황이 발생.
+또는 기존 등록된 User가 없는 경우에 로그인 시도 할때 id/pw 를 입력 한 후에 MFA에 입력 창이 나오지 않고 하얀 화면에 무한 로딩인 상황황
+해당 상황 발생 시 우선 구버전인 것이 확인되면 재설치. 재설치 후에도 계속될 경우 연결문제.
+IPv6 비활성화 여부 확인. 
+확인 방법:
+cmd를 열고 ipconfig /all 입력 후 엔터.
+연결된 네트워크 어댑터(Ethernet, Wi-Fi) 정보에서 'IPv6 주소' 항목을 찾습니다. fe80::로 시작하는 주소(링크-로컬) 외에 2001:db8:: 등 다른 주소가 보이면 IPv6가 활성화된 것입니다.
+Windows v11: ‘Win + r’ > ‘ncpa.cpl’ 입력 > 현재 연결된 네트워크 우클릭 > 속성 > IPv6 확인 > 해제 후 ipconfig /release 와 ipconfig /renew 커맨드 실행
+test-ipv6.com 이나 whatismyip.com 같은 사이트 접속.
+페이지에 IPv4와 IPv6 주소가 모두 표시되면 정상 작동 중.
+만약 회사 관리 pc라서 관리자 권한이 없는 경우도 있음
+Lxpantos측이면 관리자 권한을 신청한 후에 다시 시도 가능
+파트너 측이면 관리자 권한 신청 가능한지 요청
+윈도우 방화벽 끄고 시도. (보통 방화벽 끄면 해결 가능)
+윈도우 키 + S를 눌러 검색창을 열고 '방화벽' 또는 'Windows 보안'을 입력하고 실행합니다.
+Windows 보안 창에서 왼쪽 메뉴의 방화벽 및 네트워크 보호를 클릭합니다.
+현재 연결된 네트워크(예: 개인 네트워크)를 선택합니다.
+Microsoft Defender 방화벽 아래의 토글 스위치를 '끔'으로 변경합니다.
+(선택 사항) 팝업창에서 변경을 확인하고, 필요시 '예'를 클릭합니다.
+ISATAP 존재 여부 확인.
+ISATAP 어댑터 비활성화 체크 (cmd). - 관리자 모드로 들어가기
+netsh interface isatap show state
+netsh interface isatap set state disable
+
+Q 6.14: 특정 IP에 대해 접속이 불가하여 해당 대역대를 허용해달라는 요청이 있는 경우
+먼저 등록 요청이 온 IP 대역대가 Cato에 이미 등록이 되어 있는지, 혹은 신규 대역대인지 확인하기 위해 CMA의 Monitoring > Routing Table에서 해당 대역대가 있는지 체크.
+Routing Table에 등록이 되어 있지 않은 신규 대역대라면, 먼저 EP사이트내의 Pantos ITSM 시스템에서 신규 대역대에 대한 VPN 방화벽 요청서를 제출해야 한다고 안내.
+
+
+2번 사항 안내드린 후, 앞서 온 요청을 문찬호 선임님께 메일로 전달하기.
+
+Q 6.15: 특정 사용자가 SDP로 신규 ERP 서버에 접속이 불가능할 경우
+SDP Client의 Enable Split Tunnel이 체크 표시되어 있는지 확인 -> 체크 표시가 되어있다면 해제 후 접속 시도 해보기.
+
+
+
+Q 6.16: Cato VPN으로 Hiware 접속 관련
+Hiware는 LX판토스에서 관리하는 개발 서버. 
+Hiware에 접속 시 디바이스의 MAC 주소를 식별하여 접근을 허용함. 하지만 Cato Client v5.4 이후로 L3 통신으로 변경되어 MAC 주소가 식별이 불가함으로 LX판토스에서 레지스트리 값을 수정할 수 있는 파일을 사용자들에게 공유함. 해당 파일을 Hiware 접속을 요하는 사용자들에게 Sample -> 국내_한글 -> “이메일:CATO VPN통한 HIWARE 접속 안내” 가이드를 전달하면 됨. 
+보통 문찬호 선임님이 가이드 하시지만, 간혹 Helpdesk로 연락이 오는 분이 있다면 상기 절차 및 문찬호 선임님 참조하여 가이드 공유. 
+[원격 지원] 문제
+Q 7.1: 사용자가 113366.com 접속시 이질적인 아이콘 및 4자리 숫자 입력창이 뜰 경우
+A22: 113366.com 이 아니라 113366을 직접 브라우저에서 검색하여 접속
+.
+
+그런 경우 구글 검색창에 113366이라 검색한 후 하기와 같은 웹사이트를 사용자가 접속.
+
+
+Q 7.2: Cato VPN Client 수동 삭제 및 재설치 방법
+(23/08/16: 문제가 있는 5.3, 5.4 버전을 사용하고 있는 사용자들 모두 조사중에 있으며 디폴트 정상 루트에 설치 되어있지 않은 사용자들 모두 수동으로 버전 업그레이드하는 상황. 
+해당 작업이 완료되면, 자동 버전 업그레이드 실행하여 사용자 모두 업그레이드 할 예정. 
+따라서, 차후에는 5.3 또는 5.4 버전을 사용하고 있는 사용자가 없으므로 아래의 명령어로 CATO VPN Client를 삭제할 상황은 없어질것으로 판단) 
+CMD 창을 관리자 권한으로 열기
+
+Cato VPN Client의 About에 들어가서 현재 버전 확인
+
+각 버전에 해당하는 ProductCode가 들어있는 명령어 관리자 권한으로 연 CMD에 복사 붙여넣기 후 엔터(버전 번호의 뒷 4자리 숫자는 무시해도 됨):
+5.4.126.1121
+	msiExec.exe /x {9ced85fe-3614-49f5-a076-cba15262dfbb} IS_MAJOR_UPGRADE="yes"
+5.3.116.1037
+msiExec.exe /x {71846c0e-906c-4480-9c77-ea69d984d552} IS_MAJOR_UPGRADE="yes"
+4.7.106.794
+msiExec.exe /x {5f55eba4-f140-439c-8537-7ef9987f4161} IS_MAJOR_UPGRADE="yes"
+이는 Cato VPN Client를 삭제하며 동시에 다른 파일들에도 영향을 끼치는 cleanup action을 실행시키지 않음. h
+삭제 후 다시 설치 중 “Stopping Services”에서 진행이 멈추는 경우
+
+작업관리자의 [Services]탭에서 CatoNetworksVPNService가 “중지됨” 상태인지 확인할 것. (만약, 실행중이라면 중지할 것)
+중지한 것이 확인되면 재부팅하고 재설치 (삭제된 파일을 컴퓨터에서 인식하기까지 시간이 걸림)
+
+
+Cato Downloads (google에 cato download 만 검색해도 나옴) 에서 OS에 맞게 프로그램 다운로드
+
+다운로드 된 setup.exe 클릭
+
+Next 클릭
+
+ I accept the terms in the License Agreement 좌측의 네모 클릭 및 Next 클릭
+
+ Next 클릭
+
+Install 클릭
+
+Finish 클릭
+기타 사항
+회의 참석 시 영상녹화 화질 설정 [OCam]
+OCam 실행
+ 
+메뉴 → 옵션 → 녹화 → 해상도 [1080p FHD], 품질 [낮음(빠름)]으로 설정 → 확인
+
+[메뉴얼]영상편집.docx
+https://drive.google.com/drive/folders/1GjUNEa4qGhXBEc1hiNWTNmNwqSeINgx1?usp=drive_link 
+상기 url에 해당 영상 업로드 하면됨
+
+Q. KTNG 홍재선 과장님 맥북 SDP 로그인 에러
+
+https://clientdownload.catonetworks.com/ 인증서 설치하여 보세요.
+
+
+Q. KTNG 홍재선 과장님 아이패드 SDP 로그인 에러
+
+계정 조회 > 패스워드 재설정 
