@@ -1,6 +1,6 @@
 import anthropic
 from knowledge_base import search, get_stats, index_documents
-from slack_notifier import notify_question_and_answer, WEBHOOK_URL
+from teams_notifier import notify_question_and_answer, WEBHOOK_URL
 
 client = anthropic.Anthropic()
 
@@ -70,11 +70,11 @@ Cite your sources."""
 
     answer = response.content[0].text
 
-    # ── Send to Slack ──────────────────────────────────────────────────────────
+    # ── Send to Teams ──────────────────────────────────────────────────────────
     if WEBHOOK_URL:
         sent = notify_question_and_answer(question, answer, sources)
         if sent:
-            print("  📨 Slack 전송 완료")
+            print("  📨 Teams 전송 완료")
 
     # Save clean version to history (without injected context)
     updated_history = conversation_history + [
@@ -144,7 +144,7 @@ def chat_loop():
 
     print(f"📚 Knowledge base: {stats['total_chunks']} chunks loaded")
     print(f"🤖 Model: {MODEL}")
-    print(f"📨 Slack: {'연결됨 ✅' if WEBHOOK_URL else '미설정 (SLACK_WEBHOOK_URL 없음)'}")
+    print(f"📨 Teams: {'연결됨 ✅' if WEBHOOK_URL else '미설정 (TEAMS_WEBHOOK_URL 없음)'}")
     print("\nCommands:")
     print("  'ingest' → switch to ingest mode to add new data")
     print("  'query'  → switch back to query mode (default)")
@@ -165,6 +165,10 @@ def chat_loop():
             continue
 
         if user_input.lower() == "exit":
+            print("👋 Goodbye!")
+            break
+
+        if user_input.lower() == "quit":
             print("👋 Goodbye!")
             break
 
