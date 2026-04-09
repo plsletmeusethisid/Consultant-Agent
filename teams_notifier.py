@@ -1,7 +1,7 @@
 """
 teams_notifier.py — Send messages to Microsoft Teams via webhook URL.
 Set your webhook URL in the environment:
-    $env:TEAMS_WEBHOOK_URL="https://nusu.webhook.office.com/webhookb2/055d87c4-5162-4f75-961f-8651f8d932ec@5ba5ef5e-3109-4e77-85bd-cfeb0d347e82/IncomingWebhook/1ed881a0154e415a9a062ff38cbddece/7e4d6980-86b2-415f-b293-6fcf0761d487/V2eb8Fq_8fcxJhthAwXPOHF2PP6l01UxDBcfBPOfKmKBE1"
+    $env:TEAMS_WEBHOOK_URL="webhookurl"
 """
 import os
 import urllib.request
